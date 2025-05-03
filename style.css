@@ -44,7 +44,8 @@ a:hover {
 }
 
 .header,
-.content {
+.content,
+.footer {
     background-color: #1f2937;
     padding-left: 180px;
     padding-right: 180px;
@@ -52,7 +53,6 @@ a:hover {
 }
 
 /* CONTENT */
-
 .content {
     display: flex;
     height: 450px;
@@ -65,7 +65,7 @@ a:hover {
     flex-direction: column;
     height: 250px;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
 }
 
 .title {
@@ -101,18 +101,48 @@ a:hover {
     width: auto;
 }
 
-.info-img {
-    width: 100px;
-    height: 100px;
+/* CONTENT1 */
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 h2 {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 180px;
+    gap: 8px;
+}
+
+.info-img {
+    width: 180px;
+    border-radius: 10px;
+    border: 5px solid #3882f7;
 }
 
 .info-boxes {
     display: flex;
+    gap: 50px;
+}
+
+.smiski-info {
+    text-align:center;
+    color: #656667;
 }
 
 .author {
