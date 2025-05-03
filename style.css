@@ -1,28 +1,104 @@
 * {
-    border: 2px solid #E6534E;
+    /* border: 2px solid #E6534E; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    font-family: Roboto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-
-.header {
-    display: flex;
     justify-content: space-between;
 }
 
-.content1 {
+/* HEADER */
+.header {
     display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: light;
+}
+
+a:hover {
+    color: #a5a6a9;
+}
+
+.header-links{
+    display: flex;
+    gap: 20px;
+}
+
+.header,
+.content {
+    background-color: #1f2937;
+    padding-left: 180px;
+    padding-right: 180px;
+
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    gap: 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.subtitle {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content-button {
+    height: 35px;
+    width: 135px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #3882f7;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border-color: #3882f7;
+    border-style: solid;
+    transition-duration: 0.4s;
+}
+
+.content-button:hover {
+    background-color: #2b69cc;
 }
 
 .smiski-wallpaper {
-    width: 300px;
+    height: 250px;
+    width: auto;
 }
 
 .info-img {
