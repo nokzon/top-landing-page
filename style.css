@@ -215,7 +215,13 @@ h4 {
     color: #d6d6d6;
 }
 
+/* FOOTER */
 .footer {
     display: flex;
     justify-content: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7ebd5;
+    font-size: 18px;
 }
